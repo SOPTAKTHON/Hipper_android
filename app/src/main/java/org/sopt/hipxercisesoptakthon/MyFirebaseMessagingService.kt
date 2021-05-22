@@ -12,7 +12,8 @@ import androidx.core.app.NotificationCompat
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
 
-class FCMService : FirebaseMessagingService() {
+//Installiation
+class MyFirebaseMessagingService : FirebaseMessagingService() {
 
     private val TAG = "FirebaseService"
 
@@ -25,8 +26,11 @@ class FCMService : FirebaseMessagingService() {
         editor.putString("token", token).apply()
         editor.commit()
 
+      //  sendRegistrationToServer(token)
         Log.i("로그: ", "성공적으로 토큰을 저장함")
+
     }
+
 
     override fun onMessageReceived(remoteMessage: RemoteMessage) {
         Log.d(TAG, "From: " + remoteMessage!!.from)

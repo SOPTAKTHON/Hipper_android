@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HipxerciseSoptakthon</string>
+    <string name="firebase_notification_channel_id">Hipxercise</string>
 </resources>

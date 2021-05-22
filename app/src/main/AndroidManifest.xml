@@ -19,7 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".MainActivity"></activity>
+=======
+>>>>>>> fc6f2900a0fafadf68b3d9c6bddbbcd50c3f36d2
     </application>
 
 </manifest>

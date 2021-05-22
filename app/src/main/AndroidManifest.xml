@@ -11,22 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HipxerciseSoptakthon">
-        <activity android:name=".TimerActivity"></activity>
-        <activity android:name=".SplashActivity">
+        <activity android:name=".TimerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-<<<<<<< HEAD
+        <activity android:name=".SplashActivity">
+
+        </activity>
+
         <activity android:name=".MainActivity"></activity>
-=======
->>>>>>> fc6f2900a0fafadf68b3d9c6bddbbcd50c3f36d2
-=======
-        <activity android:name=".MainActivity" />
->>>>>>> d492936c96497d45713a889226f5ccff7a015648
+
     </application>
 
 </manifest>

@@ -10,7 +10,6 @@ import org.sopt.hipxercisesoptakthon.MainActivity
 import org.sopt.hipxercisesoptakthon.R
 import org.sopt.hipxercisesoptakthon.SignUp.SignUpActivity
 import org.sopt.hipxercisesoptakthon.api.ServiceCreator
-import org.sopt.hipxercisesoptakthon.api.ServiceSignInCreator
 import org.sopt.hipxercisesoptakthon.databinding.ActivitySignInBinding
 import retrofit2.Call
 import retrofit2.Callback
@@ -26,7 +25,7 @@ class SignInActivity : AppCompatActivity() {
         binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        textviewSignInOnClickEvent()
+        buttonSignInOnClickEvent()
         textviewSignUpOnClickEvent()
     }
 
@@ -47,8 +46,8 @@ class SignInActivity : AppCompatActivity() {
     }
 
     // 로그인 클릭
-    private fun textviewSignInOnClickEvent(){
-        binding.textviewSignInSignIn.setOnClickListener(){
+    private fun buttonSignInOnClickEvent(){
+        binding.buttonSignInSignIn.setOnClickListener(){
             val email = binding.edittextSignInEmail.text
             val pw = binding.edittextSignInPw.text
             if (email.isNullOrBlank() || pw.isNullOrBlank()) {
@@ -68,7 +67,7 @@ class SignInActivity : AppCompatActivity() {
         // 현재 사용자의 정보를 받아올 것을 명시!
         // 서버 통신은 I/O 작업이므로 비동기적으로 받아올 Callback 내부 코드는 나중에
         // 데이터를 받아오고 실행된다.
-        val call: Call<ResponseSignInData> = ServiceSignInCreator.signInService.postSignin(requestSignInData)
+        val call: Call<ResponseSignInData> = ServiceCreator.signInService.postSignin(requestSignInData)
 
         // enqueue 함수를 이용해 Call이 비동기 작업이후 동작할 Callback 을 등록할 수 있다.
         // 해당 함수 호출은 Callback을 등록만 하고

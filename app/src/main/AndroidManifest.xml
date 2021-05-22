@@ -16,10 +16,6 @@
         <activity android:name=".SignUp.SignUpActivity"></activity>
         <activity android:name=".SignIn.SignInActivity" android:windowSoftInputMode="adjustPan">
         <activity android:name=".TimerActivity">
-            
-        </activity>
-        <activity android:name=".MainActivity">
-
         </activity>
         <activity android:name=".SplashActivity">
           <intent-filter>

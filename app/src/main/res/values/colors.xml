@@ -9,4 +9,15 @@
     <color name="white">#FFFFFFFF</color>
     <color name="black_1">#000000</color>
     <color name="pink_background">#F5DAFF</color>
+    <color name="james_1">#91F985</color>
+    <color name = "rosa_1">#3D82F2</color>
+    <color name = "hat_1">#F46042</color>
+    <color name = "leg_black">#282828</color>
+    <color name = "james_2">#0A9469</color>
+    <color name = "rosa_2">#005283</color>
+    <color name = "hat_2">#F2C3BB</color>
+    <color name ="james_3">#EAF9E1</color>
+    <color name = "rosa_3">#78B9E6</color>
+    <color name ="hat_3">#6B4629</color>
+
 </resources>

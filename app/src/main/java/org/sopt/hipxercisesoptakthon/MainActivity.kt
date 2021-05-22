@@ -2,7 +2,9 @@ package org.sopt.hipxercisesoptakthon
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
 import androidx.core.view.marginTop
 import org.sopt.hipxercisesoptakthon.databinding.ActivityMainBinding
 
@@ -43,9 +45,19 @@ class MainActivity : AppCompatActivity() {
     private fun exerciseButtonClickEvent(){
         binding.imageviewButtonExercise.setOnClickListener {
             it.isSelected = !it.isSelected
+            val builder = AlertDialog.Builder(this)
+
+            val dialogView = layoutInflater.inflate(R.layout.custom_dialog, null)
+
+            builder.setView(dialogView)
+                    .show()
+
         }
 
-        //다이얼로그 띄우기
+
 
     }
+
+
+
 }

@@ -43,7 +43,4 @@ class TimerActivity : AppCompatActivity() {
 
 
 
-
-
-
 }

@@ -11,5 +11,7 @@ object ServiceCreator {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 
+    val signInService: SignInService = retrofit.create(SignInService::class.java)
+    val signUpService: SignUpService = retrofit.create(SignUpService::class.java)
     val alarmService: AlarmService = retrofit.create(AlarmService::class.java)
 }

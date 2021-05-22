@@ -77,5 +77,10 @@ dependencies {
 
     implementation 'androidx.multidex:multidex:2.0.1'
 
+    implementation 'androidx.multidex:multidex:2.0.1'
 
+    // OkHttp
+    implementation group: 'com.squareup.okhttp3', name: 'okhttp', version: '4.5.0'
+    // Use for HttpLoggingInterceptor
+    implementation group: 'com.squareup.okhttp3', name: 'logging-interceptor', version: '4.5.0'
 }

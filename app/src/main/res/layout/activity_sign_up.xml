@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp.SignUpActivity">
+
+    <TextView
+        android:id="@+id/textview_signUp_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="245dp"
+        android:text="회원가입"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edittext_signUp_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/layout_edittext_sign_up"
+        android:hint="e-mail"
+        android:paddingStart="25dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textview_signUp_title" />
+
+    <EditText
+        android:id="@+id/edittext_signUp_pw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/layout_edittext_sign_up"
+        android:hint="pw"
+        android:paddingStart="25dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="@id/edittext_signUp_email"
+        app:layout_constraintStart_toStartOf="@id/edittext_signUp_email"
+        app:layout_constraintTop_toBottomOf="@id/edittext_signUp_email" />
+
+    <EditText
+        android:id="@+id/edittext_signUp_nickname"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/layout_edittext_sign_up"
+        android:hint="nickname"
+        android:paddingStart="25dp"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="#000000"
+        app:layout_constraintEnd_toEndOf="@id/edittext_signUp_email"
+        app:layout_constraintStart_toStartOf="@id/edittext_signUp_email"
+        app:layout_constraintTop_toBottomOf="@id/edittext_signUp_pw" />
+
+    <Button
+        android:id="@+id/button_signUp_signUp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/layout_button_sign_up"
+        android:gravity="center"
+        android:text="완료"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="@id/edittext_signUp_email"
+        app:layout_constraintStart_toStartOf="@id/edittext_signUp_email"
+        app:layout_constraintTop_toBottomOf="@id/edittext_signUp_nickname" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun alarmButtonClickEvent(){
-        binding.imageviewButtonAlarm.setOnClickListener {
+        binding.imageviewButtonAlarmPush.setOnClickListener {
             it.isSelected = !it.isSelected
             //binding.imageviewButtonAlarm.marginTop(140F)
 
@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun exerciseButtonClickEvent(){
-        binding.imageviewButtonExercise.setOnClickListener {
+        binding.imageviewButtonExerciseUnpush.setOnClickListener {
             it.isSelected = !it.isSelected
             val builder = AlertDialog.Builder(this)
 

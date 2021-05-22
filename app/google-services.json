@@ -1,34 +1,99 @@
 {
   "project_info": {
+<<<<<<< HEAD
     "project_number": "551305858757",
     "project_id": "hipxercise",
     "storage_bucket": "hipxercise.appspot.com"
+=======
+    "project_number": "64083375364",
+    "firebase_url": "https://ounce-521b4.firebaseio.com",
+    "project_id": "ounce-521b4",
+    "storage_bucket": "ounce-521b4.appspot.com"
+>>>>>>> 0480edd15dd7c60a53720980f41e0d7e98efa8ab
   },
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
         "mobilesdk_app_id": "1:551305858757:android:0b76616207a78813d8aaac",
         "android_client_info": {
           "package_name": "org.sopt.hipxercisesoptakthon"
+=======
+        "mobilesdk_app_id": "1:64083375364:android:154c9883a26e33c3aa0c51",
+        "android_client_info": {
+          "package_name": "com.teamounce.ounce"
+>>>>>>> 0480edd15dd7c60a53720980f41e0d7e98efa8ab
         }
       },
       "oauth_client": [
         {
+<<<<<<< HEAD
           "client_id": "551305858757-aabimvn38dtgns30hc7cghhcsis5tuio.apps.googleusercontent.com",
+=======
+          "client_id": "64083375364-6ugm69cbfabiglb8vkauomstipcoc2c7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamounce.ounce",
+            "certificate_hash": "6a22f793337959e6f02f20e8ee985aaf10a0aecc"
+          }
+        },
+        {
+          "client_id": "64083375364-72aam80h3thcnnkvcmrfkt1ql52ebtq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamounce.ounce",
+            "certificate_hash": "42097f0f68d5f7b8716633eb3f4006ad393a6517"
+          }
+        },
+        {
+          "client_id": "64083375364-fq8i6s4ndhgk4kkma68s58ejdjjal0d7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamounce.ounce",
+            "certificate_hash": "87c36869e89d52afc2d79700a14a93affb1ae6f4"
+          }
+        },
+        {
+          "client_id": "64083375364-uhtr4gaua8h4tjcudlclg4q961is9h4q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamounce.ounce",
+            "certificate_hash": "b28e4ef28f00200fe3ac2720b4314bd0ebfb9c49"
+          }
+        },
+        {
+          "client_id": "64083375364-rcdspdgrjon1n5am3a4fda3d5enfoc1q.apps.googleusercontent.com",
+>>>>>>> 0480edd15dd7c60a53720980f41e0d7e98efa8ab
           "client_type": 3
         }
       ],
       "api_key": [
         {
+<<<<<<< HEAD
           "current_key": "AIzaSyBFYapGWZBFQqX2hpn1kBp4SH8zxKsV4og"
+=======
+          "current_key": "AIzaSyAR3ot1_qUkpUVRm027IpS3VvDnfu7HPgo"
+>>>>>>> 0480edd15dd7c60a53720980f41e0d7e98efa8ab
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
+<<<<<<< HEAD
               "client_id": "551305858757-aabimvn38dtgns30hc7cghhcsis5tuio.apps.googleusercontent.com",
               "client_type": 3
+=======
+              "client_id": "64083375364-rcdspdgrjon1n5am3a4fda3d5enfoc1q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "64083375364-p34kh68o3vg20nh9svnhjdoj2igid5qt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.Ounce"
+              }
+>>>>>>> 0480edd15dd7c60a53720980f41e0d7e98efa8ab
             }
           ]
         }

@@ -21,7 +21,7 @@
             android:fontFamily="@font/blackhansans_regular"
             android:textSize="25sp"
             android:textColor="@color/white"
-            android:text="OOO"
+            android:text="엉실이"
             android:gravity="left" />
 
         <TextView
